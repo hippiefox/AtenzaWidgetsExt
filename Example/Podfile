@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AtenzaWidgetsExt_Example' do
+  pod 'AtenzaWidgetsExt', :path => '../'
+
+  target 'AtenzaWidgetsExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
