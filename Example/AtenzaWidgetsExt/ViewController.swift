@@ -7,13 +7,17 @@
 //
 
 import UIKit
-
+import AtenzaWidgetsExt
 class ViewController: UIViewController {
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
+            print(ATZ_SafeAreaInsets,UIApplication.shared.keyWindow?.safeAreaInsets)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,9 +25,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @available(iOS 13,*)
-    private func foo(){
-        
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
     }
 
 }

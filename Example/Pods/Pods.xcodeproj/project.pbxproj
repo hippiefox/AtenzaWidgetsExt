@@ -12,6 +12,13 @@
 		20CE1076D9B2DE564133DE2336586854 /* AtenzaWidgetsExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B45CE5C142103ADB00529A0AD992A7D /* AtenzaWidgetsExt-dummy.m */; };
 		345BB6E953D8ED99E6A6386D75CA3E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		34BBF5080A6CD4EC5F3CA4F349824ED4 /* Pods-AtenzaWidgetsExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7917DFC441525F2D1D0EAABFD4D62A9E /* Pods-AtenzaWidgetsExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459E102D2AE777EA00643A75 /* ATZWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E102C2AE777EA00643A75 /* ATZWrapper.swift */; };
+		459E102F2AE7922E00643A75 /* TableView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E102E2AE7922E00643A75 /* TableView_Ext.swift */; };
+		459E10312AE7A8B300643A75 /* Color_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10302AE7A8B300643A75 /* Color_Ext.swift */; };
+		459E10332AE7AA2400643A75 /* ATZEnumResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10322AE7AA2400643A75 /* ATZEnumResult.swift */; };
+		459E10352AE7C06800643A75 /* AtenzaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10342AE7C06800643A75 /* AtenzaConfig.swift */; };
+		459E10372AE7C0A200643A75 /* ATZFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10362AE7C0A200643A75 /* ATZFuncs.swift */; };
+		459E10392AE7C12400643A75 /* Int_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10382AE7C12400643A75 /* Int_Ext.swift */; };
 		69D048E7631A4477EF0C65CCF92D9908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7C8B3ED80240570E2E6E06FA2CDAD679 /* Pods-AtenzaWidgetsExt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF6078989C24A9693154A0B8A941B /* Pods-AtenzaWidgetsExt_Example-dummy.m */; };
 		905A5C3F8A683A3613DB8698940C24FF /* AtenzaWidgetsExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F87989432C75EB714F2508A1BD6BAA54 /* AtenzaWidgetsExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,7 +46,7 @@
 /* Begin PBXFileReference section */
 		01962CB6D6C76CDC748E56C48C673841 /* Pods-AtenzaWidgetsExt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AtenzaWidgetsExt_Example.modulemap"; sourceTree = "<group>"; };
 		0AF2B16C6A0D53CAA3CCB29C102A1C6E /* Pods-AtenzaWidgetsExt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AtenzaWidgetsExt_Tests-umbrella.h"; sourceTree = "<group>"; };
-		12A29292B51A63CF555D085C810C5854 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		12A29292B51A63CF555D085C810C5854 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		19DC0538B2D427296A1288680683FEA8 /* Pods-AtenzaWidgetsExt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtenzaWidgetsExt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C78055245EF1225750E1D9C3B8AEB9B /* Pods-AtenzaWidgetsExt_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AtenzaWidgetsExt_Tests"; path = Pods_AtenzaWidgetsExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2352132F3C434FF1255895776096BE6F /* Pods-AtenzaWidgetsExt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AtenzaWidgetsExt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -48,8 +55,15 @@
 		32367E58E2962D35400C49B448E7E904 /* AtenzaWidgetsExt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AtenzaWidgetsExt.release.xcconfig; sourceTree = "<group>"; };
 		368714F489F86B208B1340B2B200F63F /* Pods-AtenzaWidgetsExt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AtenzaWidgetsExt_Tests-dummy.m"; sourceTree = "<group>"; };
 		430D9C184107E61CCB8C245D61CF9EDB /* Pods-AtenzaWidgetsExt_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AtenzaWidgetsExt_Example"; path = Pods_AtenzaWidgetsExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459E102C2AE777EA00643A75 /* ATZWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ATZWrapper.swift; path = AtenzaWidgetsExt/Classes/Funcs/ATZWrapper.swift; sourceTree = "<group>"; };
+		459E102E2AE7922E00643A75 /* TableView_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableView_Ext.swift; path = AtenzaWidgetsExt/Classes/Extensions/TableView_Ext.swift; sourceTree = "<group>"; };
+		459E10302AE7A8B300643A75 /* Color_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color_Ext.swift; path = AtenzaWidgetsExt/Classes/Extensions/Color_Ext.swift; sourceTree = "<group>"; };
+		459E10322AE7AA2400643A75 /* ATZEnumResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ATZEnumResult.swift; path = AtenzaWidgetsExt/Classes/Funcs/ATZEnumResult.swift; sourceTree = "<group>"; };
+		459E10342AE7C06800643A75 /* AtenzaConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AtenzaConfig.swift; path = AtenzaWidgetsExt/Classes/Funcs/AtenzaConfig.swift; sourceTree = "<group>"; };
+		459E10362AE7C0A200643A75 /* ATZFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATZFuncs.swift; sourceTree = "<group>"; };
+		459E10382AE7C12400643A75 /* Int_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Int_Ext.swift; path = AtenzaWidgetsExt/Classes/Extensions/Int_Ext.swift; sourceTree = "<group>"; };
 		5517A29A7509D907FE52DBA59E66F6E3 /* Pods-AtenzaWidgetsExt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AtenzaWidgetsExt_Tests.modulemap"; sourceTree = "<group>"; };
-		5E14B30495A3298B65207CF809ABB4DE /* AtenzaWidgetsExt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AtenzaWidgetsExt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E14B30495A3298B65207CF809ABB4DE /* AtenzaWidgetsExt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AtenzaWidgetsExt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5FB8D036D13A9BE3DCCFE37D302B5A96 /* Pods-AtenzaWidgetsExt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AtenzaWidgetsExt_Example-frameworks.sh"; sourceTree = "<group>"; };
 		662C25956B5A3018096D7E1C50C1F2B0 /* AtenzaWidgetsExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AtenzaWidgetsExt-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,12 +76,12 @@
 		9032EA1C4B1C79DEA59966139D75B90D /* Pods-AtenzaWidgetsExt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtenzaWidgetsExt_Tests-Info.plist"; sourceTree = "<group>"; };
 		928EDE13F7D0CAA59F6EC9AD637F5E01 /* Pods-AtenzaWidgetsExt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtenzaWidgetsExt_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96F6F659A128428B60103BD42761B306 /* AtenzaWidgetsExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AtenzaWidgetsExt-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB2D2827DE222113AC0C7E14E638EAE1 /* AtenzaWidgetsExt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AtenzaWidgetsExt; path = AtenzaWidgetsExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB245281D38D0D7F30E4E9E20F513F6 /* Pods-AtenzaWidgetsExt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtenzaWidgetsExt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9CEF6078989C24A9693154A0B8A941B /* Pods-AtenzaWidgetsExt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AtenzaWidgetsExt_Example-dummy.m"; sourceTree = "<group>"; };
 		EF671645561E7B759C9BEB25066FD484 /* AtenzaWidgetsExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AtenzaWidgetsExt.modulemap; sourceTree = "<group>"; };
-		F250EB13C9DD3055546ECB605A5AFFEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F250EB13C9DD3055546ECB605A5AFFEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F87989432C75EB714F2508A1BD6BAA54 /* AtenzaWidgetsExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AtenzaWidgetsExt-umbrella.h"; sourceTree = "<group>"; };
 		FD46FA4D588C3FC95074625B61C2B8E3 /* AtenzaWidgetsExt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AtenzaWidgetsExt.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +161,13 @@
 			isa = PBXGroup;
 			children = (
 				7B99D389DF16A168111033D48F6C59D7 /* ATZSize.swift */,
+				459E102C2AE777EA00643A75 /* ATZWrapper.swift */,
+				459E10322AE7AA2400643A75 /* ATZEnumResult.swift */,
+				459E10362AE7C0A200643A75 /* ATZFuncs.swift */,
+				459E10342AE7C06800643A75 /* AtenzaConfig.swift */,
+				459E102E2AE7922E00643A75 /* TableView_Ext.swift */,
+				459E10302AE7A8B300643A75 /* Color_Ext.swift */,
+				459E10382AE7C12400643A75 /* Int_Ext.swift */,
 				7B0C1A1714E142787A5E16F592D889E8 /* Funcs */,
 				6B9C9F7CF45E1C4FB017EBC8CC7D82B7 /* Pod */,
 				68E12B4F28350A534BF694D5E9ACA4E6 /* Support Files */,
@@ -383,8 +404,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459E102D2AE777EA00643A75 /* ATZWrapper.swift in Sources */,
+				459E102F2AE7922E00643A75 /* TableView_Ext.swift in Sources */,
 				20CE1076D9B2DE564133DE2336586854 /* AtenzaWidgetsExt-dummy.m in Sources */,
 				0226EFAEE8628DF2BF34C83722D14C8D /* ATZSize.swift in Sources */,
+				459E10352AE7C06800643A75 /* AtenzaConfig.swift in Sources */,
+				459E10312AE7A8B300643A75 /* Color_Ext.swift in Sources */,
+				459E10332AE7AA2400643A75 /* ATZEnumResult.swift in Sources */,
+				459E10392AE7C12400643A75 /* Int_Ext.swift in Sources */,
+				459E10372AE7C0A200643A75 /* ATZFuncs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,8 +662,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
