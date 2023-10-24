@@ -1,0 +1,18 @@
+PODS:
+  - AtenzaWidgetsExt (0.1.0):
+    - AtenzaWidgetsExt/Funcs (= 0.1.0)
+  - AtenzaWidgetsExt/Funcs (0.1.0)
+
+DEPENDENCIES:
+  - AtenzaWidgetsExt (from `../`)
+
+EXTERNAL SOURCES:
+  AtenzaWidgetsExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AtenzaWidgetsExt: 6c25c3a96f02b20c7eadd89a6c6ac6109f37b671
+
+PODFILE CHECKSUM: d7cac48263a246831b9cc947ab819fafc1ca3505
+
+COCOAPODS: 1.13.0

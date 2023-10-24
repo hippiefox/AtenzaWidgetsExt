@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0A769FCB56CDCB11735C06A5 /* Pods-AtenzaWidgetsExt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtenzaWidgetsExt_Tests.release.xcconfig"; path = "Target Support Files/Pods-AtenzaWidgetsExt_Tests/Pods-AtenzaWidgetsExt_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4DDDE668F0C42841FA5130CE /* AtenzaWidgetsExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AtenzaWidgetsExt.podspec; path = ../AtenzaWidgetsExt.podspec; sourceTree = "<group>"; };
+		4DDDE668F0C42841FA5130CE /* AtenzaWidgetsExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AtenzaWidgetsExt.podspec; path = ../AtenzaWidgetsExt.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AtenzaWidgetsExt_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtenzaWidgetsExt_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* AtenzaWidgetsExt_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtenzaWidgetsExt_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62498573F4009FAC2920B968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		62498573F4009FAC2920B968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8B31A6126E0A67D096646CAE /* Pods_AtenzaWidgetsExt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtenzaWidgetsExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DC1B5A8021B890EF0C0303 /* Pods_AtenzaWidgetsExt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtenzaWidgetsExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D6765038986D7D1798DDB9 /* Pods-AtenzaWidgetsExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtenzaWidgetsExt_Example.debug.xcconfig"; path = "Target Support Files/Pods-AtenzaWidgetsExt_Example/Pods-AtenzaWidgetsExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D60E43B955E8AC1F39467B6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D60E43B955E8AC1F39467B6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D9F3BA9983948F77B4C047DE /* Pods-AtenzaWidgetsExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtenzaWidgetsExt_Example.release.xcconfig"; path = "Target Support Files/Pods-AtenzaWidgetsExt_Example/Pods-AtenzaWidgetsExt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E94EA6C227015F4DD01F4B42 /* Pods-AtenzaWidgetsExt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtenzaWidgetsExt_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AtenzaWidgetsExt_Tests/Pods-AtenzaWidgetsExt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				E94EA6C227015F4DD01F4B42 /* Pods-AtenzaWidgetsExt_Tests.debug.xcconfig */,
 				0A769FCB56CDCB11735C06A5 /* Pods-AtenzaWidgetsExt_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 539L9S3WP5;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 539L9S3WP5;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,7 +480,9 @@
 			baseConfigurationReference = C0D6765038986D7D1798DDB9 /* Pods-AtenzaWidgetsExt_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				INFOPLIST_FILE = AtenzaWidgetsExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +497,9 @@
 			baseConfigurationReference = D9F3BA9983948F77B4C047DE /* Pods-AtenzaWidgetsExt_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				INFOPLIST_FILE = AtenzaWidgetsExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E94EA6C227015F4DD01F4B42 /* Pods-AtenzaWidgetsExt_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,6 +523,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,11 +537,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A769FCB56CDCB11735C06A5 /* Pods-AtenzaWidgetsExt_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

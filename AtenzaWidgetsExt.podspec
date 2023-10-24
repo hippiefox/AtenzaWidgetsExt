@@ -28,9 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/HippieFox/AtenzaWidgetsExt.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'AtenzaWidgetsExt/Classes/**/*'
+  
+  s.subspec 'Funcs' do |ff|
+      ff.source_files = 'AtenzaWidgetsExt/Classes/Funcs/*'
+  end
+
   
   # s.resource_bundles = {
   #   'AtenzaWidgetsExt' => ['AtenzaWidgetsExt/Assets/*.png']
