@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 public extension UITableView {
+    /// 圆角矩形
     static func atz_roundedRectangle(tableView: UITableView,
                                      at indexPath: IndexPath,
                                      for cell: UITableViewCell,
@@ -21,10 +22,14 @@ public extension UITableView {
         var roundRadius = cornerRadius
 
         switch indexPath.row {
-        case let r where r == 0 && r == rowNum - 1: roundingCorner = .allCorners
-        case let r where r == 0: roundingCorner = UIRectCorner(rawValue: UIRectCorner.topLeft.rawValue | UIRectCorner.topRight.rawValue)
-        case let r where r == rowNum - 1: roundingCorner = UIRectCorner(rawValue: UIRectCorner.bottomLeft.rawValue | UIRectCorner.bottomRight.rawValue)
-        default: roundRadius = 0
+        case let r where r == 0 && r == rowNum - 1: 
+            roundingCorner = .allCorners
+        case let r where r == 0: 
+            roundingCorner = UIRectCorner(rawValue: UIRectCorner.topLeft.rawValue | UIRectCorner.topRight.rawValue)
+        case let r where r == rowNum - 1: 
+            roundingCorner = UIRectCorner(rawValue: UIRectCorner.bottomLeft.rawValue | UIRectCorner.bottomRight.rawValue)
+        default: 
+            roundRadius = 0
         }
 
         let path = UIBezierPath(roundedRect: cellBounds, byRoundingCorners: roundingCorner, cornerRadii: .init(width: roundRadius, height: roundRadius))

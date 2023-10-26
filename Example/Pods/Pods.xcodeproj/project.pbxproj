@@ -7,94 +7,201 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0226EFAEE8628DF2BF34C83722D14C8D /* ATZSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D389DF16A168111033D48F6C59D7 /* ATZSize.swift */; };
+		0A134859E1102EC5CF26349C26FB6159 /* ATZFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468A90326CA5747479968C2D2A9423F9 /* ATZFuncs.swift */; };
+		0DFBD57C03F002BEB0D8A49868400D1A /* AtenzaWidgetsExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34278B483638B7F4F61C6E2BDCEB3903 /* AtenzaWidgetsExt-dummy.m */; };
+		138A7951E35E798A580DE92C9F2E1EBB /* View_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C10FD2344FEADFE25A3708BFBC8EFDC /* View_Ext.swift */; };
+		14232CF4FEFEE4AA1BE85328DBB018F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		152E9FE2A89441EBFFBAFE22CDBF9742 /* ATZWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339172254560F9DC9BFEBC6599B4DBE /* ATZWrapper.swift */; };
+		169BF1952AE9FD1800E3873E /* ATZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BF1942AE9FD1800E3873E /* ATZViewController.swift */; };
+		197DF4EE6D54D1E37B6973093A26D586 /* ATZPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88034954777DEC6EB521FA7A594538F5 /* ATZPopup.swift */; };
 		1AFD9AC289BEFDC569B0119AC11EC0C0 /* Pods-AtenzaWidgetsExt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 368714F489F86B208B1340B2B200F63F /* Pods-AtenzaWidgetsExt_Tests-dummy.m */; };
-		20CE1076D9B2DE564133DE2336586854 /* AtenzaWidgetsExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B45CE5C142103ADB00529A0AD992A7D /* AtenzaWidgetsExt-dummy.m */; };
-		345BB6E953D8ED99E6A6386D75CA3E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		34BBF5080A6CD4EC5F3CA4F349824ED4 /* Pods-AtenzaWidgetsExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7917DFC441525F2D1D0EAABFD4D62A9E /* Pods-AtenzaWidgetsExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		459E102D2AE777EA00643A75 /* ATZWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E102C2AE777EA00643A75 /* ATZWrapper.swift */; };
-		459E102F2AE7922E00643A75 /* TableView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E102E2AE7922E00643A75 /* TableView_Ext.swift */; };
-		459E10312AE7A8B300643A75 /* Color_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10302AE7A8B300643A75 /* Color_Ext.swift */; };
-		459E10332AE7AA2400643A75 /* ATZEnumResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10322AE7AA2400643A75 /* ATZEnumResult.swift */; };
-		459E10352AE7C06800643A75 /* AtenzaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10342AE7C06800643A75 /* AtenzaConfig.swift */; };
-		459E10372AE7C0A200643A75 /* ATZFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10362AE7C0A200643A75 /* ATZFuncs.swift */; };
-		459E10392AE7C12400643A75 /* Int_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E10382AE7C12400643A75 /* Int_Ext.swift */; };
+		2641B7050577FFFBBA4C82FC26BF95D9 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83141A7BA266489296BCBEF99AC5412 /* ConstraintView+Extensions.swift */; };
+		31B7B449B8A0D826BCF4F296F61111B9 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02732995CB94C03CB83E1935B434AD74 /* ConstraintDSL.swift */; };
+		35F4D2CA5DD055AA2D80B5474BDCFE93 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */; };
+		36B897CF496D92F3C4AF8CD3C8C3FC98 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */; };
+		3783F6C0914E2597A6CD1388EE84EC03 /* TableView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2554C6D91F3C1A05ABA49F4BC36DF7 /* TableView_Ext.swift */; };
+		38CA44D9DABC8E8E8193B156025465F0 /* Color_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E0294C549EBCB44023A233F4D56E7D /* Color_Ext.swift */; };
+		3C3B3110E68AB587FAFD436CC483FA26 /* Window_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2108A3DFB24CF500E8DC54D4596B4 /* Window_Ext.swift */; };
+		424135DA84F811D0E65114A83D41321C /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */; };
+		4555BE591AC6EABED3A6AC9E2AADF2FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		492171B77703EE98525B5348BBF35C4B /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */; };
+		49B73411A1073A0972D883412212EE2A /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */; };
+		4E48E1B435BB25DD41BE6F2A69AFD800 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */; };
+		55801A7B6D0C4D3676FC9CBDBD47008D /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */; };
+		5652FAD4A1F6AA282E501F89D7D84792 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */; };
+		5BC3756E6DDAD6076A5B0CE8B0379B4C /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */; };
+		5C20A9C79F41D880A64F6B0258A26199 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */; };
+		5EDC7A33558693586CD9643E10A7B8C9 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282AEDFB53BD2F6B277738727FF116D /* ConstraintConstantTarget.swift */; };
+		666C40E195BBE675C45F7238073A1579 /* Int_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6FCF03D58019540B56E17A3F8C7CF /* Int_Ext.swift */; };
+		6885FA6A24EF7B19F995AB61A70BDCA3 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */; };
+		69A44B5DE21F9EA1275891D0E16F6366 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */; };
 		69D048E7631A4477EF0C65CCF92D9908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7C8B3ED80240570E2E6E06FA2CDAD679 /* Pods-AtenzaWidgetsExt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF6078989C24A9693154A0B8A941B /* Pods-AtenzaWidgetsExt_Example-dummy.m */; };
-		905A5C3F8A683A3613DB8698940C24FF /* AtenzaWidgetsExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F87989432C75EB714F2508A1BD6BAA54 /* AtenzaWidgetsExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95EE8AED2266CA91C954D9C8C7C1272F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6B17CD64F9E361C392D1606DD7C3ECF2 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA829D4EAE32A3A11EB1A3F3D3CE705 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */; };
+		744DBBD3E80D372CC207A82058E6D05E /* Pods-AtenzaWidgetsExt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF6078989C24A9693154A0B8A941B /* Pods-AtenzaWidgetsExt_Example-dummy.m */; };
+		7F089A6E3BB6AC295F5FC2E2F518F3C5 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */; };
+		80C4804B3C1C199F2F0665C151D1058E /* ATZEnumResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB884F226FE59ABA969347B845B8C6AC /* ATZEnumResult.swift */; };
+		80CD67284E58CD4DE9D44A1593483C8C /* ATZPhTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E143673416968E1BE2D72A7334F02 /* ATZPhTextView.swift */; };
+		8574C1C24B9CF847F87B2E7552457075 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */; };
+		8712D0E1BDA3C41DFF015D1F4B97C9DB /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */; };
+		8749A9D0190488A04AD1FB9E4574A8E6 /* Pods-AtenzaWidgetsExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7917DFC441525F2D1D0EAABFD4D62A9E /* Pods-AtenzaWidgetsExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2936E5992EEE8F0C53AA6FE0D1FE1F /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */; };
+		9505EAE75852D97B1AD7CC06749C2334 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */; };
+		9561D3CFA79AD049AAF2291A60190B5A /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */; };
+		97DF4E12EFD261017837F87254CED6F9 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */; };
+		9A48E5511FE4200939FEFA3258930953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D642B01061534AD4C657A3D0EDB3953 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */; };
+		A1B78493DCD72D8FE63F8CBD42C333FE /* ATZNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA823E2C98E518FCB806F0BF097D5E4 /* ATZNavigationBar.swift */; };
+		A6C3EB59904A707E8A0FEAFD6F735E79 /* ATZBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C32C2FE46FC38B70E814344C35B42 /* ATZBarButtonItem.swift */; };
+		AD06A7B3503A9975F43F0D34EB0DD755 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */; };
 		B7D9FC45D83C0499A8C51BF5FC57FA30 /* Pods-AtenzaWidgetsExt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF2B16C6A0D53CAA3CCB29C102A1C6E /* Pods-AtenzaWidgetsExt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83E8F75729ED9833C04D7E58C186284 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */; };
+		BC4EC199016C42786365FCFA28FA8248 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */; };
+		BCDBBFB4CBAC6D83D609C13E0760F39A /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */; };
+		C2DFC6A1C3845C152DC00E8FC3C3D933 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */; };
+		C99062C9C2AFDBE90776CF0932715D31 /* ATZSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCA35D49ABCAB85055B36948EB09C8 /* ATZSize.swift */; };
+		C9EA1503E320FC069FFCB830DDD24EBE /* Button_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6D64E9034B2F473CB532CA783E954 /* Button_Ext.swift */; };
+		CBFC636A27F1A673455D401DD52AE8C7 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */; };
+		D46C1E6F307E988A6A4D5D815DA65D8B /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B3092297166519217A25AD70D5341 /* ConstraintMaker.swift */; };
+		D650A28C1979854BE6CED89682ACDD3B /* AtenzaWidgetsExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D889AE6B55ABDFF86B74F881F45B81 /* AtenzaWidgetsExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67FC145D45E4D2CA5303363825DFB27 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */; };
+		D7DA12C283A9259F06204FEBD2F50EE7 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE15C12D4B2736CB1D1B07F4838FCA7 /* LayoutConstraintItem.swift */; };
+		D92E7ED78B9D701A3D61145412A4AF85 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */; };
+		D9E97D9549A2C2FA6400EC4443B03753 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */; };
+		E022E41373126DE0E99AE33DB17D5C90 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */; };
+		E54064A4B75BCF4331205E7D898120A1 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */; };
+		E92B45A6E7431FC47038691A56E48B62 /* AtenzaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6857F6CEEAC9E9A0BC86A3D5135198 /* AtenzaConfig.swift */; };
+		FA36CCB69D47661443234AFAF5BB12A5 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		909CE0CED936CDB40496C5E68E393635 /* PBXContainerItemProxy */ = {
+		16CC24023F065782F5488D5A07D9A126 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BEE9F0E1E527B4C9E0AB02FEF46B8574;
 			remoteInfo = "Pods-AtenzaWidgetsExt_Example";
 		};
-		D7AEC90D11009295C78F3270E6C0A1ED /* PBXContainerItemProxy */ = {
+		286708AA8C14DA97131F4852BAD6908D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D9A0A00A292C97C1C4F0FD426C37214B;
 			remoteInfo = AtenzaWidgetsExt;
 		};
+		4641DC9D7753B0C414A374E6C37FE4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		71AFDE4A909BD69912E08E334DA69A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		01962CB6D6C76CDC748E56C48C673841 /* Pods-AtenzaWidgetsExt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AtenzaWidgetsExt_Example.modulemap"; sourceTree = "<group>"; };
+		02732995CB94C03CB83E1935B434AD74 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		05D6FCF03D58019540B56E17A3F8C7CF /* Int_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Int_Ext.swift; sourceTree = "<group>"; };
+		0A4B3092297166519217A25AD70D5341 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
 		0AF2B16C6A0D53CAA3CCB29C102A1C6E /* Pods-AtenzaWidgetsExt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AtenzaWidgetsExt_Tests-umbrella.h"; sourceTree = "<group>"; };
-		12A29292B51A63CF555D085C810C5854 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
+		0E24E49446DDCDB188619FF51A432C41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0EE5F8CB92905AE76169A71226B44035 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		169BF1942AE9FD1800E3873E /* ATZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATZViewController.swift; sourceTree = "<group>"; };
+		18D889AE6B55ABDFF86B74F881F45B81 /* AtenzaWidgetsExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AtenzaWidgetsExt-umbrella.h"; sourceTree = "<group>"; };
 		19DC0538B2D427296A1288680683FEA8 /* Pods-AtenzaWidgetsExt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtenzaWidgetsExt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C78055245EF1225750E1D9C3B8AEB9B /* Pods-AtenzaWidgetsExt_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AtenzaWidgetsExt_Tests"; path = Pods_AtenzaWidgetsExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2068105E34AB4C6BF2B67BD4D5076776 /* AtenzaWidgetsExt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AtenzaWidgetsExt.release.xcconfig; sourceTree = "<group>"; };
+		217C32C2FE46FC38B70E814344C35B42 /* ATZBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZBarButtonItem.swift; sourceTree = "<group>"; };
 		2352132F3C434FF1255895776096BE6F /* Pods-AtenzaWidgetsExt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AtenzaWidgetsExt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		2C07BD63B3B53C6E40A6E7058B44C4E1 /* Pods-AtenzaWidgetsExt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtenzaWidgetsExt_Example-Info.plist"; sourceTree = "<group>"; };
 		2C8B40BE64B75055D628276FC9D47534 /* Pods-AtenzaWidgetsExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtenzaWidgetsExt_Example.release.xcconfig"; sourceTree = "<group>"; };
-		32367E58E2962D35400C49B448E7E904 /* AtenzaWidgetsExt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AtenzaWidgetsExt.release.xcconfig; sourceTree = "<group>"; };
+		34278B483638B7F4F61C6E2BDCEB3903 /* AtenzaWidgetsExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AtenzaWidgetsExt-dummy.m"; sourceTree = "<group>"; };
 		368714F489F86B208B1340B2B200F63F /* Pods-AtenzaWidgetsExt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AtenzaWidgetsExt_Tests-dummy.m"; sourceTree = "<group>"; };
+		38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
+		3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		430D9C184107E61CCB8C245D61CF9EDB /* Pods-AtenzaWidgetsExt_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AtenzaWidgetsExt_Example"; path = Pods_AtenzaWidgetsExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		459E102C2AE777EA00643A75 /* ATZWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ATZWrapper.swift; path = AtenzaWidgetsExt/Classes/Funcs/ATZWrapper.swift; sourceTree = "<group>"; };
-		459E102E2AE7922E00643A75 /* TableView_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableView_Ext.swift; path = AtenzaWidgetsExt/Classes/Extensions/TableView_Ext.swift; sourceTree = "<group>"; };
-		459E10302AE7A8B300643A75 /* Color_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color_Ext.swift; path = AtenzaWidgetsExt/Classes/Extensions/Color_Ext.swift; sourceTree = "<group>"; };
-		459E10322AE7AA2400643A75 /* ATZEnumResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ATZEnumResult.swift; path = AtenzaWidgetsExt/Classes/Funcs/ATZEnumResult.swift; sourceTree = "<group>"; };
-		459E10342AE7C06800643A75 /* AtenzaConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AtenzaConfig.swift; path = AtenzaWidgetsExt/Classes/Funcs/AtenzaConfig.swift; sourceTree = "<group>"; };
-		459E10362AE7C0A200643A75 /* ATZFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATZFuncs.swift; sourceTree = "<group>"; };
-		459E10382AE7C12400643A75 /* Int_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Int_Ext.swift; path = AtenzaWidgetsExt/Classes/Extensions/Int_Ext.swift; sourceTree = "<group>"; };
+		458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
+		468A90326CA5747479968C2D2A9423F9 /* ATZFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZFuncs.swift; sourceTree = "<group>"; };
+		4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
 		5517A29A7509D907FE52DBA59E66F6E3 /* Pods-AtenzaWidgetsExt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AtenzaWidgetsExt_Tests.modulemap"; sourceTree = "<group>"; };
-		5E14B30495A3298B65207CF809ABB4DE /* AtenzaWidgetsExt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AtenzaWidgetsExt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		56340E157AB60C67BEF6E03F9C5346DF /* AtenzaWidgetsExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AtenzaWidgetsExt-prefix.pch"; sourceTree = "<group>"; };
+		583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
+		5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		5FB8D036D13A9BE3DCCFE37D302B5A96 /* Pods-AtenzaWidgetsExt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AtenzaWidgetsExt_Example-frameworks.sh"; sourceTree = "<group>"; };
-		662C25956B5A3018096D7E1C50C1F2B0 /* AtenzaWidgetsExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AtenzaWidgetsExt-prefix.pch"; sourceTree = "<group>"; };
+		650E143673416968E1BE2D72A7334F02 /* ATZPhTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZPhTextView.swift; sourceTree = "<group>"; };
+		68DCA35D49ABCAB85055B36948EB09C8 /* ATZSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZSize.swift; sourceTree = "<group>"; };
+		6C10FD2344FEADFE25A3708BFBC8EFDC /* View_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View_Ext.swift; sourceTree = "<group>"; };
+		6ED70346C751B054DE0C0BC4FC539309 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		782C19B041349DED0C47AC71C798375C /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		7917DFC441525F2D1D0EAABFD4D62A9E /* Pods-AtenzaWidgetsExt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AtenzaWidgetsExt_Example-umbrella.h"; sourceTree = "<group>"; };
 		7A4CBD1E0AAE667486DFD93B31B0E5F0 /* Pods-AtenzaWidgetsExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtenzaWidgetsExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B99D389DF16A168111033D48F6C59D7 /* ATZSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATZSize.swift; path = AtenzaWidgetsExt/Classes/Funcs/ATZSize.swift; sourceTree = "<group>"; };
 		7BB54F6F408E8788FB70189B55E7ACE1 /* Pods-AtenzaWidgetsExt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AtenzaWidgetsExt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		85458211FEB8B9E03522046C6C1804C7 /* Pods-AtenzaWidgetsExt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtenzaWidgetsExt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B45CE5C142103ADB00529A0AD992A7D /* AtenzaWidgetsExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AtenzaWidgetsExt-dummy.m"; sourceTree = "<group>"; };
+		88034954777DEC6EB521FA7A594538F5 /* ATZPopup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZPopup.swift; sourceTree = "<group>"; };
+		8D2554C6D91F3C1A05ABA49F4BC36DF7 /* TableView_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableView_Ext.swift; sourceTree = "<group>"; };
 		9032EA1C4B1C79DEA59966139D75B90D /* Pods-AtenzaWidgetsExt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtenzaWidgetsExt_Tests-Info.plist"; sourceTree = "<group>"; };
 		928EDE13F7D0CAA59F6EC9AD637F5E01 /* Pods-AtenzaWidgetsExt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtenzaWidgetsExt_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		96F6F659A128428B60103BD42761B306 /* AtenzaWidgetsExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AtenzaWidgetsExt-Info.plist"; sourceTree = "<group>"; };
+		932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		94E42FA589867A878EC039323DA40B7F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A7CF3F87DC6AB947111AE58D22F553 /* AtenzaWidgetsExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AtenzaWidgetsExt.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		A80EFAABC09A6BE1C9D504EEAFC4BF61 /* AtenzaWidgetsExt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AtenzaWidgetsExt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB75ACA158B603541AD5FD3022ED723E /* AtenzaWidgetsExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AtenzaWidgetsExt-Info.plist"; sourceTree = "<group>"; };
+		AC6857F6CEEAC9E9A0BC86A3D5135198 /* AtenzaConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AtenzaConfig.swift; sourceTree = "<group>"; };
+		B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
+		BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		BB2D2827DE222113AC0C7E14E638EAE1 /* AtenzaWidgetsExt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AtenzaWidgetsExt; path = AtenzaWidgetsExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		BCA823E2C98E518FCB806F0BF097D5E4 /* ATZNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZNavigationBar.swift; sourceTree = "<group>"; };
 		BCB245281D38D0D7F30E4E9E20F513F6 /* Pods-AtenzaWidgetsExt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtenzaWidgetsExt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF6E18B5372A4BBE8507FE4B9F165C0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		C282AEDFB53BD2F6B277738727FF116D /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
+		C83141A7BA266489296BCBEF99AC5412 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		D2FD9EFCFC3AA452137876B761FFB621 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
+		DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		E9CEF6078989C24A9693154A0B8A941B /* Pods-AtenzaWidgetsExt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AtenzaWidgetsExt_Example-dummy.m"; sourceTree = "<group>"; };
-		EF671645561E7B759C9BEB25066FD484 /* AtenzaWidgetsExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AtenzaWidgetsExt.modulemap; sourceTree = "<group>"; };
-		F250EB13C9DD3055546ECB605A5AFFEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F87989432C75EB714F2508A1BD6BAA54 /* AtenzaWidgetsExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AtenzaWidgetsExt-umbrella.h"; sourceTree = "<group>"; };
-		FD46FA4D588C3FC95074625B61C2B8E3 /* AtenzaWidgetsExt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AtenzaWidgetsExt.debug.xcconfig; sourceTree = "<group>"; };
+		EEE15C12D4B2736CB1D1B07F4838FCA7 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		F0E0294C549EBCB44023A233F4D56E7D /* Color_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Color_Ext.swift; sourceTree = "<group>"; };
+		F2C6D64E9034B2F473CB532CA783E954 /* Button_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Button_Ext.swift; sourceTree = "<group>"; };
+		F339172254560F9DC9BFEBC6599B4DBE /* ATZWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZWrapper.swift; sourceTree = "<group>"; };
+		F3D2108A3DFB24CF500E8DC54D4596B4 /* Window_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Window_Ext.swift; sourceTree = "<group>"; };
+		F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
+		F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		F657B3D6220B079CF334A44DF4F66EBD /* AtenzaWidgetsExt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AtenzaWidgetsExt.debug.xcconfig; sourceTree = "<group>"; };
+		FB884F226FE59ABA969347B845B8C6AC /* ATZEnumResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ATZEnumResult.swift; sourceTree = "<group>"; };
+		FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E04E096AB3527F81EDC65C1C9FF8020 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				345BB6E953D8ED99E6A6386D75CA3E67 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4AED25CD5BA1718EE32FA22445C9A7CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,25 +210,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86C57C3DCC9CE0A9648B1A4C856EB3A3 /* Frameworks */ = {
+		AC450DB736CB0CC53BAA2D852D956304 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EE8AED2266CA91C954D9C8C7C1272F /* Foundation.framework in Frameworks */,
+				14232CF4FEFEE4AA1BE85328DBB018F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA51F4FCEF327EFA376B4B88DC1A0006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A48E5511FE4200939FEFA3258930953 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC235C6A7001C60D90938DDA0B2BBF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4555BE591AC6EABED3A6AC9E2AADF2FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2700BE5BE076D807A0E51DDD1A60E831 /* Products */ = {
+		076E08A49EB8CC8A1C5C22DA06BF25DB /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
-				BB2D2827DE222113AC0C7E14E638EAE1 /* AtenzaWidgetsExt */,
-				430D9C184107E61CCB8C245D61CF9EDB /* Pods-AtenzaWidgetsExt_Example */,
-				1C78055245EF1225750E1D9C3B8AEB9B /* Pods-AtenzaWidgetsExt_Tests */,
+				217C32C2FE46FC38B70E814344C35B42 /* ATZBarButtonItem.swift */,
+				BCA823E2C98E518FCB806F0BF097D5E4 /* ATZNavigationBar.swift */,
+				169BF1942AE9FD1800E3873E /* ATZViewController.swift */,
+				650E143673416968E1BE2D72A7334F02 /* ATZPhTextView.swift */,
+				88034954777DEC6EB521FA7A594538F5 /* ATZPopup.swift */,
 			);
-			name = Products;
+			name = Widgets;
+			path = AtenzaWidgetsExt/Classes/Widgets;
+			sourceTree = "<group>";
+		};
+		403EB05A3920652EED411213C52E3AC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94E42FA589867A878EC039323DA40B7F /* SnapKit.modulemap */,
+				143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */,
+				D2FD9EFCFC3AA452137876B761FFB621 /* SnapKit-Info.plist */,
+				BDF6E18B5372A4BBE8507FE4B9F165C0 /* SnapKit-prefix.pch */,
+				932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */,
+				0EE5F8CB92905AE76169A71226B44035 /* SnapKit.debug.xcconfig */,
+				782C19B041349DED0C47AC71C798375C /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -132,48 +273,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		68E12B4F28350A534BF694D5E9ACA4E6 /* Support Files */ = {
+		7036860DA209ADEFBF62244980A939EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF671645561E7B759C9BEB25066FD484 /* AtenzaWidgetsExt.modulemap */,
-				8B45CE5C142103ADB00529A0AD992A7D /* AtenzaWidgetsExt-dummy.m */,
-				96F6F659A128428B60103BD42761B306 /* AtenzaWidgetsExt-Info.plist */,
-				662C25956B5A3018096D7E1C50C1F2B0 /* AtenzaWidgetsExt-prefix.pch */,
-				F87989432C75EB714F2508A1BD6BAA54 /* AtenzaWidgetsExt-umbrella.h */,
-				FD46FA4D588C3FC95074625B61C2B8E3 /* AtenzaWidgetsExt.debug.xcconfig */,
-				32367E58E2962D35400C49B448E7E904 /* AtenzaWidgetsExt.release.xcconfig */,
+				99A7CF3F87DC6AB947111AE58D22F553 /* AtenzaWidgetsExt.modulemap */,
+				34278B483638B7F4F61C6E2BDCEB3903 /* AtenzaWidgetsExt-dummy.m */,
+				AB75ACA158B603541AD5FD3022ED723E /* AtenzaWidgetsExt-Info.plist */,
+				56340E157AB60C67BEF6E03F9C5346DF /* AtenzaWidgetsExt-prefix.pch */,
+				18D889AE6B55ABDFF86B74F881F45B81 /* AtenzaWidgetsExt-umbrella.h */,
+				F657B3D6220B079CF334A44DF4F66EBD /* AtenzaWidgetsExt.debug.xcconfig */,
+				2068105E34AB4C6BF2B67BD4D5076776 /* AtenzaWidgetsExt.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AtenzaWidgetsExt";
-			sourceTree = "<group>";
-		};
-		6B9C9F7CF45E1C4FB017EBC8CC7D82B7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5E14B30495A3298B65207CF809ABB4DE /* AtenzaWidgetsExt.podspec */,
-				12A29292B51A63CF555D085C810C5854 /* LICENSE */,
-				F250EB13C9DD3055546ECB605A5AFFEB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6E412B51A7EDAF89CDC1207118EC06C0 /* AtenzaWidgetsExt */ = {
-			isa = PBXGroup;
-			children = (
-				7B99D389DF16A168111033D48F6C59D7 /* ATZSize.swift */,
-				459E102C2AE777EA00643A75 /* ATZWrapper.swift */,
-				459E10322AE7AA2400643A75 /* ATZEnumResult.swift */,
-				459E10362AE7C0A200643A75 /* ATZFuncs.swift */,
-				459E10342AE7C06800643A75 /* AtenzaConfig.swift */,
-				459E102E2AE7922E00643A75 /* TableView_Ext.swift */,
-				459E10302AE7A8B300643A75 /* Color_Ext.swift */,
-				459E10382AE7C12400643A75 /* Int_Ext.swift */,
-				7B0C1A1714E142787A5E16F592D889E8 /* Funcs */,
-				6B9C9F7CF45E1C4FB017EBC8CC7D82B7 /* Pod */,
-				68E12B4F28350A534BF694D5E9ACA4E6 /* Support Files */,
-			);
-			name = AtenzaWidgetsExt;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		79B69B0EE8D6ECC9CE1D4170A226CEBE /* Targets Support Files */ = {
@@ -185,11 +297,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7B0C1A1714E142787A5E16F592D889E8 /* Funcs */ = {
+		9556354C8BCA6568EE51C2617E00A8FE /* AtenzaWidgetsExt */ = {
 			isa = PBXGroup;
 			children = (
+				CE67D61878C219900A45686C65760E54 /* Extensions */,
+				FAABE6B7E10B062AB28AC6FF6DBEE35C /* Funcs */,
+				F00FC5A2EAA5C8DDADF9F494B18929F0 /* Pod */,
+				7036860DA209ADEFBF62244980A939EE /* Support Files */,
+				076E08A49EB8CC8A1C5C22DA06BF25DB /* Widgets */,
 			);
-			name = Funcs;
+			name = AtenzaWidgetsExt;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A11EB97D2C5E6CFA96721F638414D26D /* Pods-AtenzaWidgetsExt_Tests */ = {
@@ -206,6 +324,14 @@
 			);
 			name = "Pods-AtenzaWidgetsExt_Tests";
 			path = "Target Support Files/Pods-AtenzaWidgetsExt_Tests";
+			sourceTree = "<group>";
+		};
+		A609B839102B6134FA086C3FA95A2BCB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9556354C8BCA6568EE51C2617E00A8FE /* AtenzaWidgetsExt */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B241679EE6112B5909F809D1DD2D23D2 /* Pods-AtenzaWidgetsExt_Example */ = {
@@ -225,21 +351,39 @@
 			path = "Target Support Files/Pods-AtenzaWidgetsExt_Example";
 			sourceTree = "<group>";
 		};
-		C1A4E59F3BE6A27F7C83C7FF8B111E17 /* Development Pods */ = {
+		C082F3AB930313446E89AF486678F2BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E412B51A7EDAF89CDC1207118EC06C0 /* AtenzaWidgetsExt */,
+				BB2D2827DE222113AC0C7E14E638EAE1 /* AtenzaWidgetsExt */,
+				430D9C184107E61CCB8C245D61CF9EDB /* Pods-AtenzaWidgetsExt_Example */,
+				1C78055245EF1225750E1D9C3B8AEB9B /* Pods-AtenzaWidgetsExt_Tests */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE67D61878C219900A45686C65760E54 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F2C6D64E9034B2F473CB532CA783E954 /* Button_Ext.swift */,
+				F0E0294C549EBCB44023A233F4D56E7D /* Color_Ext.swift */,
+				05D6FCF03D58019540B56E17A3F8C7CF /* Int_Ext.swift */,
+				8D2554C6D91F3C1A05ABA49F4BC36DF7 /* TableView_Ext.swift */,
+				6C10FD2344FEADFE25A3708BFBC8EFDC /* View_Ext.swift */,
+				F3D2108A3DFB24CF500E8DC54D4596B4 /* Window_Ext.swift */,
+			);
+			name = Extensions;
+			path = AtenzaWidgetsExt/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C1A4E59F3BE6A27F7C83C7FF8B111E17 /* Development Pods */,
+				A609B839102B6134FA086C3FA95A2BCB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2700BE5BE076D807A0E51DDD1A60E831 /* Products */,
+				FBE859397B27E4FC4D81B6F5DD24B6F6 /* Pods */,
+				C082F3AB930313446E89AF486678F2BE /* Products */,
 				79B69B0EE8D6ECC9CE1D4170A226CEBE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -250,6 +394,82 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29D3F332511F02C2A2BCFE5288B22D5 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */,
+				5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */,
+				DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */,
+				C282AEDFB53BD2F6B277738727FF116D /* ConstraintConstantTarget.swift */,
+				54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */,
+				BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */,
+				7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */,
+				02732995CB94C03CB83E1935B434AD74 /* ConstraintDSL.swift */,
+				C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */,
+				FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */,
+				26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */,
+				F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */,
+				E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */,
+				C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */,
+				BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */,
+				5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */,
+				0A4B3092297166519217A25AD70D5341 /* ConstraintMaker.swift */,
+				F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */,
+				DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */,
+				412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */,
+				9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */,
+				4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */,
+				583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */,
+				00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */,
+				751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */,
+				B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */,
+				7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */,
+				3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */,
+				E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */,
+				458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */,
+				C83141A7BA266489296BCBEF99AC5412 /* ConstraintView+Extensions.swift */,
+				0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */,
+				F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */,
+				38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */,
+				EEE15C12D4B2736CB1D1B07F4838FCA7 /* LayoutConstraintItem.swift */,
+				960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */,
+				152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */,
+				403EB05A3920652EED411213C52E3AC2 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		F00FC5A2EAA5C8DDADF9F494B18929F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A80EFAABC09A6BE1C9D504EEAFC4BF61 /* AtenzaWidgetsExt.podspec */,
+				6ED70346C751B054DE0C0BC4FC539309 /* LICENSE */,
+				0E24E49446DDCDB188619FF51A432C41 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FAABE6B7E10B062AB28AC6FF6DBEE35C /* Funcs */ = {
+			isa = PBXGroup;
+			children = (
+				AC6857F6CEEAC9E9A0BC86A3D5135198 /* AtenzaConfig.swift */,
+				FB884F226FE59ABA969347B845B8C6AC /* ATZEnumResult.swift */,
+				468A90326CA5747479968C2D2A9423F9 /* ATZFuncs.swift */,
+				68DCA35D49ABCAB85055B36948EB09C8 /* ATZSize.swift */,
+				F339172254560F9DC9BFEBC6599B4DBE /* ATZWrapper.swift */,
+			);
+			name = Funcs;
+			path = AtenzaWidgetsExt/Classes/Funcs;
+			sourceTree = "<group>";
+		};
+		FBE859397B27E4FC4D81B6F5DD24B6F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D29D3F332511F02C2A2BCFE5288B22D5 /* SnapKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,38 +483,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B34DD4874CCFEDD49FA93BD090334DF7 /* Headers */ = {
+		1DE077D001A339D794919B301318F403 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34BBF5080A6CD4EC5F3CA4F349824ED4 /* Pods-AtenzaWidgetsExt_Example-umbrella.h in Headers */,
+				D650A28C1979854BE6CED89682ACDD3B /* AtenzaWidgetsExt-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF7DE35F9EDB2CDD300B1C6134FCD36C /* Headers */ = {
+		50F49ECD514FD1AE2EAF1554BC9FD718 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				905A5C3F8A683A3613DB8698940C24FF /* AtenzaWidgetsExt-umbrella.h in Headers */,
+				6B17CD64F9E361C392D1606DD7C3ECF2 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFD111146D055C4751D02E31BEE38AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8749A9D0190488A04AD1FB9E4574A8E6 /* Pods-AtenzaWidgetsExt_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BEE9F0E1E527B4C9E0AB02FEF46B8574 /* Pods-AtenzaWidgetsExt_Example */ = {
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6A0B1BCC9E7421C9F8667AFCA0C15D1 /* Build configuration list for PBXNativeTarget "Pods-AtenzaWidgetsExt_Example" */;
+			buildConfigurationList = CE745FBBC62A64FD8D427B4A853D8DC0 /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				B34DD4874CCFEDD49FA93BD090334DF7 /* Headers */,
-				6349F73B09F23744CBA46B9C9ABCCC9D /* Sources */,
-				2E04E096AB3527F81EDC65C1C9FF8020 /* Frameworks */,
-				00DE7832BDFA787069017BAF0696ECC3 /* Resources */,
+				50F49ECD514FD1AE2EAF1554BC9FD718 /* Headers */,
+				CCBA742C52497F73AE9C47B59C81C5FF /* Sources */,
+				BA51F4FCEF327EFA376B4B88DC1A0006 /* Frameworks */,
+				790BBECDE42C7D73A7AC94096B28A8C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C28F14F5C5F33DA9AA70612311492C77 /* PBXTargetDependency */,
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEE9F0E1E527B4C9E0AB02FEF46B8574 /* Pods-AtenzaWidgetsExt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8308BF6D845B8973A05B2022027CC859 /* Build configuration list for PBXNativeTarget "Pods-AtenzaWidgetsExt_Example" */;
+			buildPhases = (
+				6FFD111146D055C4751D02E31BEE38AF /* Headers */,
+				E4C32FFA13EE2B02EE2C2AC048F4D392 /* Sources */,
+				EC235C6A7001C60D90938DDA0B2BBF27 /* Frameworks */,
+				417F3366BE3A0BF6D95ECA291F412806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67F21654FB7DDABB4487304FF007E7A2 /* PBXTargetDependency */,
+				FFDAC9BCC63E5118AF2B23A5FEDF67D8 /* PBXTargetDependency */,
 			);
 			name = "Pods-AtenzaWidgetsExt_Example";
 			productName = Pods_AtenzaWidgetsExt_Example;
@@ -313,7 +560,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3EF0212FF8B840C7B32452C8F93143BB /* PBXTargetDependency */,
+				8B3BCB9D098736E3DF496D3B71771B02 /* PBXTargetDependency */,
 			);
 			name = "Pods-AtenzaWidgetsExt_Tests";
 			productName = Pods_AtenzaWidgetsExt_Tests;
@@ -322,16 +569,17 @@
 		};
 		D9A0A00A292C97C1C4F0FD426C37214B /* AtenzaWidgetsExt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C490A8E97E356E8FB093C9417E527CDC /* Build configuration list for PBXNativeTarget "AtenzaWidgetsExt" */;
+			buildConfigurationList = A85DDA600A6C519EA0C105AA72E5308E /* Build configuration list for PBXNativeTarget "AtenzaWidgetsExt" */;
 			buildPhases = (
-				DF7DE35F9EDB2CDD300B1C6134FCD36C /* Headers */,
-				43BBE9B9698EABB891C37D2791F1446D /* Sources */,
-				86C57C3DCC9CE0A9648B1A4C856EB3A3 /* Frameworks */,
-				E2460EE62AA0AFDA4875E1C87F0EF6F8 /* Resources */,
+				1DE077D001A339D794919B301318F403 /* Headers */,
+				921AD1D8C9003A280394DB3E18745B03 /* Sources */,
+				AC450DB736CB0CC53BAA2D852D956304 /* Frameworks */,
+				3FD1423B264444379A2FC8E1EFF1E153 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				015371DCF654BFECF5FD6BADDE2FAD15 /* PBXTargetDependency */,
 			);
 			name = AtenzaWidgetsExt;
 			productName = AtenzaWidgetsExt;
@@ -356,25 +604,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2700BE5BE076D807A0E51DDD1A60E831 /* Products */;
+			productRefGroup = C082F3AB930313446E89AF486678F2BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D9A0A00A292C97C1C4F0FD426C37214B /* AtenzaWidgetsExt */,
 				BEE9F0E1E527B4C9E0AB02FEF46B8574 /* Pods-AtenzaWidgetsExt_Example */,
 				CD7A279EE56645462162F0E7A310B731 /* Pods-AtenzaWidgetsExt_Tests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00DE7832BDFA787069017BAF0696ECC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3423461839252F41D2564577B10C699C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,7 +624,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2460EE62AA0AFDA4875E1C87F0EF6F8 /* Resources */ = {
+		3FD1423B264444379A2FC8E1EFF1E153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F3366BE3A0BF6D95ECA291F412806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790BBECDE42C7D73A7AC94096B28A8C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,82 +656,114 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43BBE9B9698EABB891C37D2791F1446D /* Sources */ = {
+		921AD1D8C9003A280394DB3E18745B03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459E102D2AE777EA00643A75 /* ATZWrapper.swift in Sources */,
-				459E102F2AE7922E00643A75 /* TableView_Ext.swift in Sources */,
-				20CE1076D9B2DE564133DE2336586854 /* AtenzaWidgetsExt-dummy.m in Sources */,
-				0226EFAEE8628DF2BF34C83722D14C8D /* ATZSize.swift in Sources */,
-				459E10352AE7C06800643A75 /* AtenzaConfig.swift in Sources */,
-				459E10312AE7A8B300643A75 /* Color_Ext.swift in Sources */,
-				459E10332AE7AA2400643A75 /* ATZEnumResult.swift in Sources */,
-				459E10392AE7C12400643A75 /* Int_Ext.swift in Sources */,
-				459E10372AE7C0A200643A75 /* ATZFuncs.swift in Sources */,
+				E92B45A6E7431FC47038691A56E48B62 /* AtenzaConfig.swift in Sources */,
+				0DFBD57C03F002BEB0D8A49868400D1A /* AtenzaWidgetsExt-dummy.m in Sources */,
+				A6C3EB59904A707E8A0FEAFD6F735E79 /* ATZBarButtonItem.swift in Sources */,
+				80C4804B3C1C199F2F0665C151D1058E /* ATZEnumResult.swift in Sources */,
+				0A134859E1102EC5CF26349C26FB6159 /* ATZFuncs.swift in Sources */,
+				A1B78493DCD72D8FE63F8CBD42C333FE /* ATZNavigationBar.swift in Sources */,
+				80CD67284E58CD4DE9D44A1593483C8C /* ATZPhTextView.swift in Sources */,
+				197DF4EE6D54D1E37B6973093A26D586 /* ATZPopup.swift in Sources */,
+				C99062C9C2AFDBE90776CF0932715D31 /* ATZSize.swift in Sources */,
+				152E9FE2A89441EBFFBAFE22CDBF9742 /* ATZWrapper.swift in Sources */,
+				C9EA1503E320FC069FFCB830DDD24EBE /* Button_Ext.swift in Sources */,
+				38CA44D9DABC8E8E8193B156025465F0 /* Color_Ext.swift in Sources */,
+				666C40E195BBE675C45F7238073A1579 /* Int_Ext.swift in Sources */,
+				169BF1952AE9FD1800E3873E /* ATZViewController.swift in Sources */,
+				3783F6C0914E2597A6CD1388EE84EC03 /* TableView_Ext.swift in Sources */,
+				138A7951E35E798A580DE92C9F2E1EBB /* View_Ext.swift in Sources */,
+				3C3B3110E68AB587FAFD436CC483FA26 /* Window_Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6349F73B09F23744CBA46B9C9ABCCC9D /* Sources */ = {
+		CCBA742C52497F73AE9C47B59C81C5FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8B3ED80240570E2E6E06FA2CDAD679 /* Pods-AtenzaWidgetsExt_Example-dummy.m in Sources */,
+				424135DA84F811D0E65114A83D41321C /* Constraint.swift in Sources */,
+				9D642B01061534AD4C657A3D0EDB3953 /* ConstraintAttributes.swift in Sources */,
+				8712D0E1BDA3C41DFF015D1F4B97C9DB /* ConstraintConfig.swift in Sources */,
+				5EDC7A33558693586CD9643E10A7B8C9 /* ConstraintConstantTarget.swift in Sources */,
+				CBFC636A27F1A673455D401DD52AE8C7 /* ConstraintDescription.swift in Sources */,
+				35F4D2CA5DD055AA2D80B5474BDCFE93 /* ConstraintDirectionalInsets.swift in Sources */,
+				69A44B5DE21F9EA1275891D0E16F6366 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				31B7B449B8A0D826BCF4F296F61111B9 /* ConstraintDSL.swift in Sources */,
+				D67FC145D45E4D2CA5303363825DFB27 /* ConstraintInsets.swift in Sources */,
+				8574C1C24B9CF847F87B2E7552457075 /* ConstraintInsetTarget.swift in Sources */,
+				49B73411A1073A0972D883412212EE2A /* ConstraintItem.swift in Sources */,
+				9505EAE75852D97B1AD7CC06749C2334 /* ConstraintLayoutGuide.swift in Sources */,
+				36B897CF496D92F3C4AF8CD3C8C3FC98 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				5652FAD4A1F6AA282E501F89D7D84792 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				8D2936E5992EEE8F0C53AA6FE0D1FE1F /* ConstraintLayoutSupport.swift in Sources */,
+				BC4EC199016C42786365FCFA28FA8248 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				D46C1E6F307E988A6A4D5D815DA65D8B /* ConstraintMaker.swift in Sources */,
+				492171B77703EE98525B5348BBF35C4B /* ConstraintMakerEditable.swift in Sources */,
+				97DF4E12EFD261017837F87254CED6F9 /* ConstraintMakerExtendable.swift in Sources */,
+				6885FA6A24EF7B19F995AB61A70BDCA3 /* ConstraintMakerFinalizable.swift in Sources */,
+				C2DFC6A1C3845C152DC00E8FC3C3D933 /* ConstraintMakerPrioritizable.swift in Sources */,
+				55801A7B6D0C4D3676FC9CBDBD47008D /* ConstraintMakerRelatable.swift in Sources */,
+				9561D3CFA79AD049AAF2291A60190B5A /* ConstraintMakerRelatable+Extensions.swift in Sources */,
+				B83E8F75729ED9833C04D7E58C186284 /* ConstraintMultiplierTarget.swift in Sources */,
+				FA36CCB69D47661443234AFAF5BB12A5 /* ConstraintOffsetTarget.swift in Sources */,
+				E022E41373126DE0E99AE33DB17D5C90 /* ConstraintPriority.swift in Sources */,
+				E54064A4B75BCF4331205E7D898120A1 /* ConstraintPriorityTarget.swift in Sources */,
+				5BC3756E6DDAD6076A5B0CE8B0379B4C /* ConstraintRelatableTarget.swift in Sources */,
+				5C20A9C79F41D880A64F6B0258A26199 /* ConstraintRelation.swift in Sources */,
+				AD06A7B3503A9975F43F0D34EB0DD755 /* ConstraintView.swift in Sources */,
+				2641B7050577FFFBBA4C82FC26BF95D9 /* ConstraintView+Extensions.swift in Sources */,
+				7F089A6E3BB6AC295F5FC2E2F518F3C5 /* ConstraintViewDSL.swift in Sources */,
+				BCDBBFB4CBAC6D83D609C13E0760F39A /* Debugging.swift in Sources */,
+				D9E97D9549A2C2FA6400EC4443B03753 /* LayoutConstraint.swift in Sources */,
+				D7DA12C283A9259F06204FEBD2F50EE7 /* LayoutConstraintItem.swift in Sources */,
+				4E48E1B435BB25DD41BE6F2A69AFD800 /* SnapKit-dummy.m in Sources */,
+				D92E7ED78B9D701A3D61145412A4AF85 /* Typealiases.swift in Sources */,
+				6CA829D4EAE32A3A11EB1A3F3D3CE705 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C32FFA13EE2B02EE2C2AC048F4D392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744DBBD3E80D372CC207A82058E6D05E /* Pods-AtenzaWidgetsExt_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3EF0212FF8B840C7B32452C8F93143BB /* PBXTargetDependency */ = {
+		015371DCF654BFECF5FD6BADDE2FAD15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-AtenzaWidgetsExt_Example";
-			target = BEE9F0E1E527B4C9E0AB02FEF46B8574 /* Pods-AtenzaWidgetsExt_Example */;
-			targetProxy = 909CE0CED936CDB40496C5E68E393635 /* PBXContainerItemProxy */;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 4641DC9D7753B0C414A374E6C37FE4CC /* PBXContainerItemProxy */;
 		};
-		C28F14F5C5F33DA9AA70612311492C77 /* PBXTargetDependency */ = {
+		67F21654FB7DDABB4487304FF007E7A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AtenzaWidgetsExt;
 			target = D9A0A00A292C97C1C4F0FD426C37214B /* AtenzaWidgetsExt */;
-			targetProxy = D7AEC90D11009295C78F3270E6C0A1ED /* PBXContainerItemProxy */;
+			targetProxy = 286708AA8C14DA97131F4852BAD6908D /* PBXContainerItemProxy */;
+		};
+		8B3BCB9D098736E3DF496D3B71771B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AtenzaWidgetsExt_Example";
+			target = BEE9F0E1E527B4C9E0AB02FEF46B8574 /* Pods-AtenzaWidgetsExt_Example */;
+			targetProxy = 16CC24023F065782F5488D5A07D9A126 /* PBXContainerItemProxy */;
+		};
+		FFDAC9BCC63E5118AF2B23A5FEDF67D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 71AFDE4A909BD69912E08E334DA69A95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3290DCFFD30B4BFEAF79C8D71CE37242 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32367E58E2962D35400C49B448E7E904 /* AtenzaWidgetsExt.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AtenzaWidgetsExt/AtenzaWidgetsExt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AtenzaWidgetsExt/AtenzaWidgetsExt-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AtenzaWidgetsExt/AtenzaWidgetsExt.modulemap";
-				PRODUCT_MODULE_NAME = AtenzaWidgetsExt;
-				PRODUCT_NAME = AtenzaWidgetsExt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		58413D39F660DF31EDE31311CEDBDD6C /* Debug */ = {
+		046DA8580E4B153D0A410B1B9184F9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A4CBD1E0AAE667486DFD93B31B0E5F0 /* Pods-AtenzaWidgetsExt_Example.debug.xcconfig */;
 			buildSettings = {
@@ -509,9 +797,42 @@
 			};
 			name = Debug;
 		};
-		7A7124071EBFD921611556A48D3EE064 /* Debug */ = {
+		25CB1CB3B8A9D92A1E18070301B3639D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD46FA4D588C3FC95074625B61C2B8E3 /* AtenzaWidgetsExt.debug.xcconfig */;
+			baseConfigurationReference = 2068105E34AB4C6BF2B67BD4D5076776 /* AtenzaWidgetsExt.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AtenzaWidgetsExt/AtenzaWidgetsExt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AtenzaWidgetsExt/AtenzaWidgetsExt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AtenzaWidgetsExt/AtenzaWidgetsExt.modulemap";
+				PRODUCT_MODULE_NAME = AtenzaWidgetsExt;
+				PRODUCT_NAME = AtenzaWidgetsExt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		453EB04BFCC8A75EC06860B0544376DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F657B3D6220B079CF334A44DF4F66EBD /* AtenzaWidgetsExt.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -668,7 +989,40 @@
 			};
 			name = Release;
 		};
-		CEE565D9957B2E967376D778A0AE5654 /* Release */ = {
+		A0612EE1601111BA73A8381121973A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782C19B041349DED0C47AC71C798375C /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1ED8852C2476BACCF18AFEE1D687347 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C8B40BE64B75055D628276FC9D47534 /* Pods-AtenzaWidgetsExt_Example.release.xcconfig */;
 			buildSettings = {
@@ -772,6 +1126,38 @@
 			};
 			name = Debug;
 		};
+		EC0A403274D55D38579198239E785A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE5F8CB92905AE76169A71226B44035 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -793,20 +1179,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6A0B1BCC9E7421C9F8667AFCA0C15D1 /* Build configuration list for PBXNativeTarget "Pods-AtenzaWidgetsExt_Example" */ = {
+		8308BF6D845B8973A05B2022027CC859 /* Build configuration list for PBXNativeTarget "Pods-AtenzaWidgetsExt_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58413D39F660DF31EDE31311CEDBDD6C /* Debug */,
-				CEE565D9957B2E967376D778A0AE5654 /* Release */,
+				046DA8580E4B153D0A410B1B9184F9EC /* Debug */,
+				A1ED8852C2476BACCF18AFEE1D687347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C490A8E97E356E8FB093C9417E527CDC /* Build configuration list for PBXNativeTarget "AtenzaWidgetsExt" */ = {
+		A85DDA600A6C519EA0C105AA72E5308E /* Build configuration list for PBXNativeTarget "AtenzaWidgetsExt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A7124071EBFD921611556A48D3EE064 /* Debug */,
-				3290DCFFD30B4BFEAF79C8D71CE37242 /* Release */,
+				453EB04BFCC8A75EC06860B0544376DA /* Debug */,
+				25CB1CB3B8A9D92A1E18070301B3639D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE745FBBC62A64FD8D427B4A853D8DC0 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0A403274D55D38579198239E785A4A /* Debug */,
+				A0612EE1601111BA73A8381121973A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

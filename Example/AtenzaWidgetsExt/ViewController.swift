@@ -8,16 +8,27 @@
 
 import UIKit
 import AtenzaWidgetsExt
-class ViewController: UIViewController {
+class ViewController: ATZViewController {
+    
+    
+    @ATZDefaults(key: "token", defaultValue: "")
+    var token: String
+    @ATZDefaults(key: "phone", defaultValue: "")
+    var phone: String
 
+    
+    private lazy var button: UIButton = {
+        let btn = UIButton()
+        btn.setTitle("go", for: .normal)
+        btn.setTitleColor(.black, for: .normal)
+        btn.addTarget(self, action: #selector(tapGo), for: .touchUpInside)
+        return btn
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
-            print(ATZ_SafeAreaInsets,UIApplication.shared.keyWindow?.safeAreaInsets)
-        }
-        
+        self.atz_navigationBar?.leftItem = customLeftNavigationItem(self, selector: #selector(actionBack))
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +38,12 @@ class ViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
+    }
+    
+    @objc private func tapGo(){
+        token = "abc"
+//        let vc = FooViewController()
+//        present(vc, animated: true)
     }
 
 }

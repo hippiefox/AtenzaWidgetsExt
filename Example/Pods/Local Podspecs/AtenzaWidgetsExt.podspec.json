@@ -19,10 +19,23 @@
     "ios": "13.0"
   },
   "source_files": "AtenzaWidgetsExt/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "Funcs",
       "source_files": "AtenzaWidgetsExt/Classes/Funcs/*"
+    },
+    {
+      "name": "Widgets",
+      "source_files": "AtenzaWidgetsExt/Classes/Widgets/*"
+    },
+    {
+      "name": "Extensions",
+      "source_files": "AtenzaWidgetsExt/Classes/Extensions/*"
     }
   ]
 }

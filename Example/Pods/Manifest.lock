@@ -1,17 +1,31 @@
 PODS:
   - AtenzaWidgetsExt (0.1.0):
+    - AtenzaWidgetsExt/Extensions (= 0.1.0)
     - AtenzaWidgetsExt/Funcs (= 0.1.0)
-  - AtenzaWidgetsExt/Funcs (0.1.0)
+    - AtenzaWidgetsExt/Widgets (= 0.1.0)
+    - SnapKit
+  - AtenzaWidgetsExt/Extensions (0.1.0):
+    - SnapKit
+  - AtenzaWidgetsExt/Funcs (0.1.0):
+    - SnapKit
+  - AtenzaWidgetsExt/Widgets (0.1.0):
+    - SnapKit
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - AtenzaWidgetsExt (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   AtenzaWidgetsExt:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AtenzaWidgetsExt: 6c25c3a96f02b20c7eadd89a6c6ac6109f37b671
+  AtenzaWidgetsExt: 0c91c0a6259cfb6ba9b6c43060b73971644c3cf1
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: d7cac48263a246831b9cc947ab819fafc1ca3505
 

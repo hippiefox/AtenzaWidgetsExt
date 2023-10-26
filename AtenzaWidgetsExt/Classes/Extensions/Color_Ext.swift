@@ -11,7 +11,7 @@ import UIKit
 public extension UIColor {
     convenience init?(hexValue: String) {
         var offset = 0
-        var value = hexValue
+        let value = hexValue
 
         if value.hasPrefix("#") { offset = 1 }
         if value.hasPrefix("0x") || value.hasPrefix("0X") { offset = 2 }

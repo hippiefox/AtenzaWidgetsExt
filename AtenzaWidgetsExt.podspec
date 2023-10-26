@@ -35,6 +35,15 @@ TODO: Add long description of the pod here.
   s.subspec 'Funcs' do |ff|
       ff.source_files = 'AtenzaWidgetsExt/Classes/Funcs/*'
   end
+  
+  s.subspec 'Widgets' do |ww|
+      ww.source_files = 'AtenzaWidgetsExt/Classes/Widgets/*'
+      ww.dependency = 'AtenzaWidgetsExt/Funcs'
+  end
+  
+  s.subspec 'Extensions' do |ee|
+      ee.source_files = 'AtenzaWidgetsExt/Classes/Extensions/*'
+  end
 
   
   # s.resource_bundles = {
@@ -43,5 +52,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SnapKit'
 end
