@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Widgets' do |ww|
       ww.source_files = 'AtenzaWidgetsExt/Classes/Widgets/*'
-      ww.dependency = 'AtenzaWidgetsExt/Funcs'
+      ww.dependency 'AtenzaWidgetsExt/Funcs'
   end
   
   s.subspec 'Extensions' do |ee|

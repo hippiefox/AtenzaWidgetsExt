@@ -7,7 +7,5 @@ target 'AtenzaWidgetsExt_Example' do
 
   target 'AtenzaWidgetsExt_Tests' do
     inherit! :search_paths
-
-    
   end
 end
